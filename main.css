@@ -1,0 +1,59 @@
+#content {
+	width: 500px;
+	border-right: 2px solid black;
+	float: left;
+	padding: 5px 10px 5px 5px;
+	height: 550px;
+}
+
+#treeDiv {
+	position: absolute;
+	left: 560px;
+	width: 700px;
+	height: 500px;
+	overflow: auto;
+	border: 1px solid black;
+}
+
+.node {
+	position: absolute; 
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	opacity: 1;
+	background-color: rgba(255,255,255,1);
+}
+
+.node:hover {
+	background-color: #66a;
+}
+
+.line {
+	position: absolute;
+	z-index: -1;
+	border-bottom: 1px dashed black;
+}
+
+.left {
+	border-left: 1px dashed black;
+}
+
+.right {
+	border-right: 1px dashed black;
+}
+
+.top {
+	border-top: 1px dashed black;
+}
+
+.note {
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.9);
+	font-size: 14px;
+	color: white;
+	position: absolute;
+	padding: 8px;
+}

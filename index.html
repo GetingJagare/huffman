@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+<title>Сжатие по алгоритму Хаффмана</title>
+<script type="text/javascript" src="tree.js">
+</script>
+	<script type="text/javascript" src="main.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body onload="document.getElementById('msg').value=''; init();">
+<div id="content">
+	<textarea cols="40" rows="10" id="msg">	
+	</textarea><br />
+	<input type="button" value="OK" onclick="init(); toHuffman(document.getElementById('msg').value);" />
+	<div id="codes"></div>
+	</div>
+	<div id="treeDiv">
+		
+	</div>
+</body>
+</html>
